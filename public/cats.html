@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Cats - Cats Power the Internet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-container">
+            <div class="header-top">
+                <a href="/" class="logo-link">
+                    <img src="images/logo.png"
+                        alt="Orange and white tabby cat with blue collar looking to the side in profile" class="logo">
+                </a>
+
+                <h1 class="site-title">Cats Power the Internet</h1>
+
+                <button class="hamburger-button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-icon"></span>
+                </button>
+            </div>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li><a href="/cats.html" class="nav-link">Famous Cats</a></li>
+                    <li><a href="/events.html" class="nav-link">Cat Events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="main-content">
+        <div class="cards-container">
+            <article class="cat-card">
+                <img src="images/card1.png"
+                    alt="Brown tabby cat with white chest and green eyes looking directly at camera" class="card-image">
+                <h2>Grumpy Cat</h2>
+                <p>Tardar Sauce, known as Grumpy Cat, became an internet sensation in 2012 due to her permanently grumpy
+                    facial expression caused by feline dwarfism.</p>
+                <p>Her unique look made her <button class="subscribe-button" data-cat="Grumpy Cat">subscribe</button>
+                    one of the most recognizable cats in the world.</p>
+            </article>
+
+            <article class="cat-card">
+                <img src="images/card2.png" alt="Orange tabby cat sleeping on bed with patterned bedding near window"
+                    class="card-image">
+                <h2>Nala Cat</h2>
+                <p>Nala holds a Guinness World Record for having the most followers on Instagram for a cat.</p>
+                <p>This cross-eyed Siamese-Tabby mix was adopted from <button class="subscribe-button"
+                        data-cat="Nala Cat">subscribe</button> a shelter and now uses her fame to promote animal
+                    adoption worldwide.</p>
+            </article>
+
+            <article class="cat-card">
+                <img src="images/card3.png"
+                    alt="Fluffy white Persian kitten sitting on wooden floor with houseplants in background"
+                    class="card-image">
+                <h2>Maru</h2>
+                <p>Maru is a Scottish Fold from Japan who has captivated millions with his love of boxes and playful
+                    personality.</p>
+                <p>His YouTube channel has accumulated hundreds <button class="subscribe-button"
+                        data-cat="Maru">subscribe</button> of millions of views, making him one of the most watched cats
+                    online.</p>
+            </article>
+
+            <article class="cat-card">
+                <img src="images/card4.png"
+                    alt="Two kittens lying on red blanket, one black and white, one tabby with blue eyes"
+                    class="card-image">
+                <h2>Lil Bub</h2>
+                <p>Lil Bub was known for her unique appearance resulting from genetic mutations, including dwarfism and
+                    an extra toe on each paw.</p>
+                <p>She became a symbol of perseverance and was <button class="subscribe-button"
+                        data-cat="Lil Bub">subscribe</button> used to raise awareness for special needs pets everywhere.
+                </p>
+            </article>
+
+            <article class="cat-card">
+                <img src="images/card5.png" alt="Tabby kitten sleeping with head resting on paws on white surface"
+                    class="card-image">
+                <h2>Colonel Meow</h2>
+                <p>Colonel Meow held the Guinness World Record for having the longest fur on a cat, measuring nine
+                    inches.</p>
+                <p>This Himalayan-Persian crossbreed had a grumpy <button class="subscribe-button"
+                        data-cat="Colonel Meow">subscribe</button> demeanor that endeared him to fans across social
+                    media platforms.</p>
+            </article>
+
+            <article class="cat-card">
+                <img src="images/card6.png"
+                    alt="Orange long-haired cat in profile looking to the side against gray background"
+                    class="card-image">
+                <h2>Keyboard Cat</h2>
+                <p>Keyboard Cat became one of the earliest viral cat videos on the internet. The original video from
+                    1984 showed a cat appearing to play an electronic keyboard.</p>
+                <p>It has been used in countless <button class="subscribe-button"
+                        data-cat="Keyboard Cat">subscribe</button> remixes and internet memes since.</p>
+            </article>
+        </div>
+    </main>
+
+    <dialog class="subscribe-modal" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <h2 id="modal-title">Subscribe to Latest news!</h2>
+            <form class="subscribe-form" method="POST" action="/subscribe">
+                <div class="form-group">
+                    <label for="email-input">
+                        Email <span class="required-indicator" aria-label="required">* required</span>
+                    </label>
+                    <input type="text" id="email-input" name="email" class="form-input" autocomplete="email">
+                    <span class="error-message" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-input">
+                        Confirm Email <span class="required-indicator" aria-label="required">* required</span>
+                    </label>
+                    <input type="text" id="confirm-input" name="confirmEmail" class="form-input" autocomplete="email">
+                    <span class="error-message" id="confirm-error"></span>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="form-button submit-button">Subscribe</button>
+                    <button type="button" class="form-button cancel-button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+
+    <footer class="site-footer">
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <ul class="footer-nav-list">
+                <li><a href="/privacy.html" class="footer-link">Privacy Policy</a></li>
+                <li><a href="/work.html" class="footer-link">Work for Us</a></li>
+                <li><a href="/contact.html" class="footer-link">Contact Us</a></li>
+                <li><a href="/social.html" class="footer-link">Social Media</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

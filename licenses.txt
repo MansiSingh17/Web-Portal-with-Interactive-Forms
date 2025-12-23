@@ -1,0 +1,48 @@
+Image Licenses for Project 2
+============================
+
+All images used in this project are properly licensed for use.
+
+Logo Image
+----------
+logo.png
+Source: https://unsplash.com/photos/hxn2HjZHyQE
+License: https://unsplash.com/license
+
+
+
+Home Page Panel Images
+----------------------
+cat1.png
+Source: https://unsplash.com/photos/brown-tabby-cat-7GX5aICb5i4 
+License: https://unsplash.com/license
+
+cat2.png
+Source: https://unsplash.com/photos/four-assorted-color-tabby-kittens-on-brown-basket-YCPkW_r_6uA 
+License: https://unsplash.com/license
+
+Famous Cats Card Images
+-----------------------
+card1.png
+Source: https://unsplash.com/photos/brown-and-white-tabby-cat-mBRfYA0dYYE
+License: https://unsplash.com/license
+
+card2.png
+Source: https://unsplash.com/photos/cat-sleeping-on-bed-pdALzg0yN-8 
+License: https://unsplash.com/license
+
+card3.png
+Source: https://unsplash.com/photos/white-coated-persian-cat-sitting-on-brown-wooden-surface-X7UR0BDz-UY
+License: https://unsplash.com/license
+
+card4.png
+Source: https://unsplash.com/photos/selective-focus-photography-brown-cat-lying-over-black-cat-1l2waV8glIQ 
+License: https://unsplash.com/license
+
+card5.png
+Source: https://unsplash.com/photos/brown-tabby-kitten-lying-on-white-textile-uhnZZUaTIOs
+License: https://unsplash.com/license
+
+card6.png
+Source: https://unsplash.com/photos/sitting-orange-persian-cat-13ky5Ycf0ts 
+License: https://unsplash.com/license
